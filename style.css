@@ -1,0 +1,166 @@
+*{
+margin: 0;
+font-family:Inter;
+}
+
+#titulo{
+color:#ffffffff;
+position: absolute;
+width: 1024px;
+height: 72px;
+left: 62px;
+top: 206px;
+}
+
+#titulo{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 72px;
+}
+
+#subtitulo{
+color:#ffffffff;
+position: absolute;
+width: 1024px;
+height: 28px;
+left: 62px;
+top: 265px;
+margin: 0;
+margin-top: 30px;
+margin-bottom: 70px;
+padding-bottom: 70px;
+}
+
+#informacional{
+background-color:#f5f5f5;
+width: 1440px;
+height: 229px;
+color: black;
+}
+
+#informacional{
+display: grid;
+grid-auto-flow: column;
+columns: auto;
+}
+
+#informacional ,p{
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+margin: 0;
+}
+
+.zero1{
+margin-left: 62px;
+margin-top: 80px;
+}
+
+#texto{
+position: absolute;
+width: 735px;
+height: 161px;
+left: 77px;
+top: 1003px;
+}
+
+.texto{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 20px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+#arq{
+position: absolute;
+width: 510px;
+height: 605px;
+left: 876px;
+top: 781px;
+}
+
+#tituloformulario{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 550;
+font-size: 32px;
+line-height: 1000%;
+text-align: center;
+color: #ffffff;
+}
+
+#tituloformulario{
+position: absolute;
+width: 1440px;
+height: 638px;
+left: 0px;
+top: 1478px;
+background: #303030;
+}
+
+#formulario{
+  text-align: center;
+  margin-top: 50px;
+}
+
+input{
+  position:absolute;
+  width: 480px;
+  height: 56px;
+  left: 415px;
+  top: 1661px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding-left: 19px;
+  margin: 40px;
+}
+
+#inputemail{
+  position:absolute;
+  width: 480px;
+  height: 56px;
+  left: 415px;
+  top: 1775px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin: 40px;
+}
+
+button{
+position: absolute;
+width: 286px;
+height: 74px;
+left: 577px;
+top: 1955px;
+background: #C07212;
+border-radius: 10px;
+}
+
+button{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 30px;
+display: flex;
+align-items: center;
+padding-left: 50px;
+color: #FFFFFF;  
+}
+
+button:hover{
+  background: #ea952d;
+  color:#FFFFFF;
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px black;
+  transition-duration: 0.5s;
+
+}
